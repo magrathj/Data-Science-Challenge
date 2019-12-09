@@ -1,3 +1,7 @@
+# Data Science Challenge
+
+This challenge looks at using docker, postgres and python to analyse interesting trends in transcational banking data.
+
 ## Preparation
 We will be utilizing a PostgreSQL 11 server for storing and retrieving data and Docker for hosting it. To do this, first install Docker: https://docs.docker.com/.
 
