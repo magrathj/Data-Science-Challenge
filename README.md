@@ -23,7 +23,7 @@ For Postico visit: https://eggerapps.at/postico/.
 Once installed, open Postico and:
 1. click 'New Favorite'
 2. enter the following:
-- Nickname: revolut_ht
+- Nickname: ht_db
 - Host: localhost
 - Port: 54320
 - User: postgres
@@ -47,7 +47,7 @@ and you should be able to see the data you just loaded to the database.
 	- **plan**: string indicating on which plan the user is on
 	- **attributes_notifications_marketing_push**: float indicating if the user has accepted to receive marketing push notifications
 	- **attributes_notifications_marketing_email**: float indicating if the user has accepted to receive marketing email notifications
-	- **num_contacts**:	integer corresponding to the number of contacts the user has on Revolut
+	- **num_contacts**:	integer corresponding to the number of contacts the user has 
 	- **num_referrals**: integer corresponding to the number of users referred by the selected user
 	- **num_successful_referrals**: integer corresponding to the number of users successfully referred by the selected user (successfully means users who have actually installed the app and are able to use the product)
 3. notifications.csv
@@ -64,7 +64,7 @@ and you should be able to see the data you just loaded to the database.
 	- **transactions_state**: string indicating the state of a transaction
 		COMPLETED - the transaction was completed and the user's balance was changed
 		DECLINED/FAILED - the transaction was declined for some reason, usually pertains to insufficient balance 
-		REVERTED - the associated transaction was completed first but was then rolled back later in time potentially due to customer reaching out to Revolut
+		REVERTED - the associated transaction was completed first but was then rolled back later in time potentially due to customer reaching out 
 	- **ea_cardholderpresence**: string indicating if the card holder was present when the transaction happened
 	- **ea_merchant_mcc**: float corresponding to the Merchant Category Code (MCC)
 	- **ea_merchant_city**: string corresponding to the merchant’s city
