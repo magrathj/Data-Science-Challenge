@@ -1,0 +1,19 @@
+# How to Doc
+
+start up docker:
+docker start ht_pg_server 
+
+check docker logs:
+docker logs -f ht_pg_server
+
+set up python env:
+source my_project_env/bin/activate
+
+run juypter:
+my_project_env/bin/jupyter-notebook --allow-root
+
+
+run juypter on remote server:
+https://www.digitalocean.com/community/tutorials/how-to-install-run-connect-to-jupyter-notebook-on-remote-server
+
+
